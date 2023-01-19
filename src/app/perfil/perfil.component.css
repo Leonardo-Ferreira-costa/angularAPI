@@ -1,0 +1,26 @@
+
+.viewProfile{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+    position: relative;
+}
+.viewProfile h1{
+
+    color: white;
+}
+
+.profileImg{
+    display:inline-block;
+    width: 10vw;
+    max-width: 200px;
+    min-width: 84px;
+    height: 10vw;
+    max-height: 200px;
+    min-height: 84px;
+    margin: 0 1vw;
+    object-fit: cover;
+    border: 0.3em solid #222;
+}

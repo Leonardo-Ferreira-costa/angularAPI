@@ -1,0 +1,66 @@
+<app-menu-footer></app-menu-footer>
+
+
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Nome: {{filme.nome}}</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="nome" placeholder="Nome" [(ngModel)]="filme.nome">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="diretor">Diretor</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="diretor" name="diretor" placeholder="Diretor" [(ngModel)]="filme.diretor">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="duracao">Duração</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="duracao" name="duracao" placeholder="Duração" [(ngModel)]="filme.duracao">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lancamento">Lançamento</label>
+    </div>
+    <div class="col-75">
+      <input type="date" id="lancamento" name="lancamento" placeholder="Lançamento" [(ngModel)]="filme.lancamento">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="genero">Genero: {{filme.genero}}</label>
+    </div>
+    <div class="col-75">
+      <select id="genero" name="genero" [(ngModel)]="filme.genero">
+        <option value="Terror">Terror</option>
+        <option value="acao">ação</option>
+        <option value="ficcao20%cientifica">ficção cientifica</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="descricao">Descrição</label>
+    </div>
+    <div class="col-75">
+      <textarea id="descricao" name="descricao" placeholder="Coloque uma descrição.." style="height:200px" [(ngModel)]="filme.descricao"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <button class="btnSalvar" (click)="novoFilme()" >SALVAR</button>
+    <!-- {{(click)="novoFilme()"}} -->
+  </div>
+  </form>
+</div>
+
+  <app-footer></app-footer>

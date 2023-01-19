@@ -1,0 +1,13 @@
+<app-menu-footer></app-menu-footer>
+<button (click)="get_movies()">GET /acao</button>
+
+<ul>
+    <li *ngFor="let filme of filmes" >
+      -- id: {{filme.id}}
+      -- nome: {{filme.nome}}
+      -- diertor: {{filme.diretor}}
+      -- lancamento: {{filme.lancamento}}
+    </li>
+  </ul> 
+
+  <app-footer></app-footer>

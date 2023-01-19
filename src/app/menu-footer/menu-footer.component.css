@@ -1,0 +1,12 @@
+.menuNav{
+    margin: 0px;
+    padding: 2em;
+    color: white;
+    background-color: #000000;
+    margin-bottom: 0;
+}
+
+.menuNav img{
+    height: 42px;
+    width: 176px;
+}

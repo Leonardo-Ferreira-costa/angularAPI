@@ -1,0 +1,96 @@
+.bodyLogin{
+    background-image: url(../../assets/login-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body{
+    width: 100%;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+div .box-description img{
+    width: 20px;
+}
+
+nav .logo{
+    width: 100%
+}
+nav .logo img{
+    width: 22%
+}
+main{
+    background-color: #000101a8;
+    max-width: 450px;
+    margin: 0 auto 80px;
+    padding: 50px;
+    color: #737373;
+}
+main form h1{
+    margin: 10px 0 20px 0;
+    color: white;
+    font-size: 40px;
+}
+main form .form-g > input{
+    width: 100%;
+    background-color: #333333;
+    outline: none;
+    border: none;
+    height: 45px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #737373
+}
+
+main form .form-g button{
+    width: 100%;
+    background-color: #e50914;
+    outline: none;
+    border: none;
+    height: 45px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form-footer{
+    margin-top: 20px;
+}
+.form-footer input[type=checkbox]{
+    float: left;
+}
+
+.form-footer p{
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.box-description > a:onclick {
+    text-decoration: none;
+    color: blue;
+}
+
+.box-description > a > img{
+    margin-top: 4px;
+}
